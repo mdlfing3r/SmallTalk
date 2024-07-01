@@ -1,0 +1,52 @@
+﻿  Son.cpp
+C:\PetProjects\SmallTalk\Son\Son.cpp(23,18): error C2065: 'TCP': undeclared identifier
+C:\PetProjects\SmallTalk\Son\Son.cpp(23,22): error C2065: 'IP': undeclared identifier
+C:\PetProjects\SmallTalk\Son\Son.cpp(23,17): error C2440: 'initializing': cannot convert from 'unsigned long' to 'sockaddr'
+C:\PetProjects\SmallTalk\Son\Son.cpp(23,17): message : 'sockaddr::sockaddr': no overloaded function could convert all the argument types
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(249,1): message : could be 'sockaddr::sockaddr(sockaddr &&)'
+C:\PetProjects\SmallTalk\Son\Son.cpp(23,17): message : 'sockaddr::sockaddr(sockaddr &&)': cannot convert argument 1 from 'unsigned long' to 'sockaddr &&'
+C:\PetProjects\SmallTalk\Son\Son.cpp(23,35): message : Reason: cannot convert from 'unsigned long' to 'sockaddr'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(249,1): message : or       'sockaddr::sockaddr(const sockaddr &)'
+C:\PetProjects\SmallTalk\Son\Son.cpp(23,17): message : 'sockaddr::sockaddr(const sockaddr &)': cannot convert argument 1 from 'unsigned long' to 'const sockaddr &'
+C:\PetProjects\SmallTalk\Son\Son.cpp(23,35): message : Reason: cannot convert from 'unsigned long' to 'const sockaddr'
+C:\PetProjects\SmallTalk\Son\Son.cpp(23,17): message : while trying to match the argument list '(unsigned long)'
+C:\PetProjects\SmallTalk\Son\Son.cpp(24,23): error C2512: 'Son::Son': no appropriate default constructor available
+C:\PetProjects\SmallTalk\Son\Son.cpp(24,23): message : while trying to match the argument list '()'
+C:\PetProjects\SmallTalk\Son\Son.cpp(24,14): error C2440: 'initializing': cannot convert from 'Son *' to 'Son'
+C:\PetProjects\SmallTalk\Son\Son.cpp(24,14): message : 'Son::Son': no overloaded function could convert all the argument types
+C:\PetProjects\SmallTalk\Son\Son.cpp(7,1): message : could be 'Son::Son(Son &&)'
+C:\PetProjects\SmallTalk\Son\Son.cpp(24,14): message : 'Son::Son(Son &&)': cannot convert argument 1 from 'Son *' to 'Son &&'
+C:\PetProjects\SmallTalk\Son\Son.cpp(24,23): message : Reason: cannot convert from 'Son *' to 'Son'
+C:\PetProjects\SmallTalk\Son\Son.cpp(24,23): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\PetProjects\SmallTalk\Son\Son.cpp(7,1): message : or       'Son::Son(const Son &)'
+C:\PetProjects\SmallTalk\Son\Son.cpp(24,14): message : 'Son::Son(const Son &)': cannot convert argument 1 from 'Son *' to 'const Son &'
+C:\PetProjects\SmallTalk\Son\Son.cpp(24,23): message : Reason: cannot convert from 'Son *' to 'const Son'
+C:\PetProjects\SmallTalk\Son\Son.cpp(24,23): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\PetProjects\SmallTalk\Son\Son.cpp(9,6): message : or       'Son::Son(sockaddr)'
+C:\PetProjects\SmallTalk\Son\Son.cpp(24,14): message : 'Son::Son(sockaddr)': cannot convert argument 1 from 'Son *' to 'sockaddr'
+C:\PetProjects\SmallTalk\Son\Son.cpp(24,23): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\PetProjects\SmallTalk\Son\Son.cpp(24,14): message : while trying to match the argument list '(Son *)'
+C:\PetProjects\SmallTalk\Son\Son.cpp(25,2): error C2146: syntax error: missing ';' before identifier 'connect'
+C:\PetProjects\SmallTalk\Son\Son.cpp(25,2): error C2660: 'connect': function does not take 0 arguments
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1691,1): message : see declaration of 'connect'
+C:\PetProjects\SmallTalk\Son\Son.cpp(25,2): message : while trying to match the argument list '()'
+C:\PetProjects\SmallTalk\Son\Son.cpp(26,1): error C2143: syntax error: missing ';' before '}'
+C:\PetProjects\SmallTalk\Son\Son.cpp(28,1): error C3927: '->': trailing return type is not allowed after a non-function declarator
+C:\PetProjects\SmallTalk\Son\Son.cpp(28,1): error C3484: syntax error: expected '->' before the return type
+C:\PetProjects\SmallTalk\Son\Son.cpp(28,1): error C3613: missing return type after '->' ('int' assumed)
+C:\PetProjects\SmallTalk\Son\Son.cpp(28,7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\PetProjects\SmallTalk\Son\Son.cpp(28,1): error C2146: syntax error: missing ';' before identifier 'S_addr'
+C:\PetProjects\SmallTalk\Son\Son.cpp(31,1): error C3927: '->': trailing return type is not allowed after a non-function declarator
+C:\PetProjects\SmallTalk\Son\Son.cpp(31,1): error C3484: syntax error: expected '->' before the return type
+C:\PetProjects\SmallTalk\Son\Son.cpp(31,1): error C3613: missing return type after '->' ('int' assumed)
+C:\PetProjects\SmallTalk\Son\Son.cpp(31,7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\PetProjects\SmallTalk\Son\Son.cpp(31,1): error C2086: 'int S_un': redefinition
+C:\PetProjects\SmallTalk\Son\Son.cpp(28,1): message : see declaration of 'S_un'
+C:\PetProjects\SmallTalk\Son\Son.cpp(31,1): error C2146: syntax error: missing ';' before identifier 'S_addr'
+C:\PetProjects\SmallTalk\Son\Son.cpp(33,1): error C3927: '->': trailing return type is not allowed after a non-function declarator
+C:\PetProjects\SmallTalk\Son\Son.cpp(33,1): error C3484: syntax error: expected '->' before the return type
+C:\PetProjects\SmallTalk\Son\Son.cpp(33,1): error C3613: missing return type after '->' ('int' assumed)
+C:\PetProjects\SmallTalk\Son\Son.cpp(33,7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\PetProjects\SmallTalk\Son\Son.cpp(33,1): error C2086: 'int S_un': redefinition
+C:\PetProjects\SmallTalk\Son\Son.cpp(28,1): message : see declaration of 'S_un'
+C:\PetProjects\SmallTalk\Son\Son.cpp(33,1): error C2146: syntax error: missing ';' before identifier 'S_addr'

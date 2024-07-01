@@ -1,0 +1,3 @@
+﻿  Father.cpp
+C:\PetProjects\SmallTalk\Father\Father.cpp(15,8): warning C4101: 'localIP': unreferenced local variable
+  Father.vcxproj -> C:\PetProjects\SmallTalk\genericMember\x64\Debug\Father.exe

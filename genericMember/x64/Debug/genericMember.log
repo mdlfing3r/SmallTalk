@@ -1,0 +1,3 @@
+﻿  genericMember.cpp
+C:\PetProjects\SmallTalk\genericMember\genericMember.cpp(3,16): error C2084: function 'genericMember::genericMember(const sockaddr)' already has a body
+C:\PetProjects\SmallTalk\genericMember\genericMember.h(31,16): message : see previous definition of '{ctor}'
